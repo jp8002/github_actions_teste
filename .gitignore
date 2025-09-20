@@ -1,0 +1,44 @@
+# Arquivos de Python compilados
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Diretórios de ambientes virtuais
+env/
+venv/
+ENV/
+.venv/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do IDE
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de logs
+*.log
+
+# Arquivos de banco de dados
+*.sqlite3
+
+# Arquivos de cache do Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Arquivos de configuração de testes
+.coverage
+nosetests.xml
+coverage.xml
+*.hypothesis/
+.tox/
+*.nox/
+
+# Arquivos de backup
+*~
