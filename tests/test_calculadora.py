@@ -1,6 +1,6 @@
 
 import pytest
-from src.calculadora import somar, dividir
+import src.calculadora 
 
 def test_somar():
     assert somar(2, 3) == 5
